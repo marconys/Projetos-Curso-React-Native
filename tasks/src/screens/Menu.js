@@ -2,11 +2,11 @@ import React from 'react'
 import { Platform, ScrollView, View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import { DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer'
 import { CommonActions } from '@react-navigation/native';
-import { Gravatar } from 'react-native-gravatar'
+import { Gravatar } from 'react-awesome-gravatar'
 import commonStyles from '../commonStyles'
 
 import axios from 'axios'
-import AsyncStorage from '@react-native-community/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 export default props => {

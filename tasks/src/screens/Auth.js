@@ -9,7 +9,7 @@ import {
 } from 'react-native'
 
 import axios from 'axios'
-import AsyncStorage from '@react-native-community/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import { CommonActions } from '@react-navigation/native';
 
 import backgroundImage from '../../assets/imgs/login.jpg'

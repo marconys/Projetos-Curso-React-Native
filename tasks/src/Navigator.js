@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import Auth from './screens/Auth'
@@ -10,7 +10,7 @@ import AuthOrApp from './screens/AuthOrApp'
 import Menu from './screens/Menu'
 import commonStyles from './commonStyles'
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 const menuConfig = {
